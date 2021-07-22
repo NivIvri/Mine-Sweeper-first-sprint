@@ -1,12 +1,78 @@
+body {
+  margin: 0 auto;
+  background-color: #ffbcbc;
+  
+}
+.board-container {
+  margin: 0 auto;
+}
 .board-container td button {
-    width: 40px;
-    height:40px;
-    text-align: center;
-    font-size:1.4em;
-    background-color:antiquewhite ;
+  width: 40px;
+  height: 40px;
+  font-size: 1.4em;
+  background-color: #b5eaea;
+  padding: 5px; 
 }
 
-.neg{
-    background-color: black;
-    
+h1 {
+  font-size: 50px;
+  margin: 5px;
+  color: #e93b81;
+  font-weight: bolder;
+  box-shadow: black;
+}
+
+.btn-group {
+  width: 80%;
+}
+
+.btn-group button {
+  background-color: #edf6e5;
+  color: black;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  width: 70px;
+  border-radius: 20%;
+  font-size: large;
+  border: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+.timer {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 50%;
+  font-size: large;
+}
+
+.lives button {
+  background-color: #f38ba0;
+  color: black;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  border-radius: 20%;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: large;
+
+  width: 70px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-group .icon {
+  background-color: #f9f9f9;
+  padding: 8px 8px; /* Some padding */
+  font-size: x-large;
+}
+
+footer{
+  text-align: center;
+margin-top: 17%;  
+font-size: 20px;
 }

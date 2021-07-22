@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/app.css" />
+    <title>Mine Sweeper</title>
+  </head>
+
+  <body onload="initGame({size:4,mines:2})">
+    <h1>Mine Sweeper</h1>
+    <div class="timer">TIME: <span></span></div>
+    <div class="btn-group">
+      <button class="btn1" onclick="initGame({size:4,mines:2})">4</button>
+      <button class="btn2" onclick="initGame({size:8,mines:12})">8</button>
+      <button class="btn3" onclick="initGame({size:12,mines:30})">12</button>
+      <button class="icon" onclick="initGame({size:4,mines:2})">😊</button>
+    </div>
+    <div>
+      <div class="board-container"></div>
+    </div>
+    <div class="lives"><button></button></div>
+    <footer>
+      <p>Niv Ivri</p>
+    </footer>
+
+    <script src="js/utils.js "></script>
+    <script src="js/game.js "></script>
+  </body>
+</html>
+
+<!--<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/app.css" />
+    <title>Mine Sweeper</title>
+  </head>
+
+  <body onload="initGame({size:4,mines:2})">
+    <h1>Mine Sweeper</h1>
+    <div>
+      <div class="timer">TIME: <span></span></div>
+      <div class="btn-group">
+        <button class="btn1" onclick="initGame({size:4,mines:2})">4</button>
+        <button class="btn2" onclick="initGame({size:8,mines:4})">8</button>
+        <button class="btn3" onclick="initGame({size:12,mines:4})">12</button>
+        <button class="icon" onclick="initGame({size:4,mines:2})">😊</button>
+      </div>
+    </div>
+    <div class="board-container"></div>
+    <div class="lives"><button></button></div>
+    <script src="js/utils.js "></script>
+    <script src="js/game.js "></script>
+  </body>
+</html>-->
